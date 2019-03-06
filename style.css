@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin: 2px 0;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: space-around;
+  max-width: 600px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.mainDiv img:hover {
+  background-color: lightblue;
+}
+
+.resultsDiv {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#playAgain {
+  border-radius: 20px;
+  font-size: 1.3em;
+  padding: 15px;
+  font-weight: bold;
+  background-color: lightblue;
+}
+
+#playAgain:hover {
+  background-color: black;
+  color: #ddd;
+}
